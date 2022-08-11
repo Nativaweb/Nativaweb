@@ -1,0 +1,206 @@
+<html>
+
+	<head>
+		<style>
+
+			@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+
+			html {
+				font-size: 24px;
+				font-family: 'Kanit';
+			}
+
+			body {
+				background: rgb(150,150,200);
+			}
+
+			.title {
+				color: whitesmoke;
+				font-size: 3rem;
+			}
+
+			.landing {
+				padding: 1rem;
+				padding-bottom: 0rem;
+				width: 90%;
+				color: whitesmoke;
+			}
+
+			.landing p {
+				font-size: 1rem;
+			}
+
+
+			ul p {
+				font-size: 0.5rem;
+			}
+
+			.columns {
+				width: min(90%, 75rem);
+				display: grid;
+				grid-auto-flow: row;
+				gap: 0.5rem;
+				font-size: 0.7rem;
+				margin: 3rem auto;
+				padding: 0.4rem;
+				background: rgba(255, 255, 255, 0.7);
+				border-radius: 30px;
+			}
+
+			.products {
+				width: min(90%, 75rem);
+				display: grid;
+				grid-auto-flow: row;
+				gap: 1rem;
+				font-size: 0.7rem;
+				margin: 3rem auto;
+				padding: 0.4rem;
+				background: rgba(190, 232, 255, 1);
+				border-radius: 30px;
+				box-shadow: 0px -1px 10px 10px #5566FF;
+			}
+
+			.box {
+				padding: 0rem;
+				border: solid rgb(0,57,134) 5px;
+				box-shadow: 0px -1px 10px 4px #FFFFFF;
+				text-align: center;
+				border-radius: 5px 5px 20px 20px;
+				border-bottom: solid rgb(0,57,134) 10px;
+				background: rgb(57,57,134, 0.8);
+			}
+
+			.polygon {
+				position: absolute;
+				margin-top: -10px;
+				margin-left: -10px;
+				margin-right: -10px;
+				width: 100%;
+				height: 240%;
+				background: rgb(0,7,134);
+				background: linear-gradient(90deg, rgba(0,57,134,1) 0%, rgba(0,11,205,0.7066176812521884) 39%, rgba(48,116,255,1) 100%);
+				clip-path: polygon(50% 0%, 86% 0, 100% 0, 100% 44%, 68% 85%, 32% 100%, 0 70%, 0% 43%, 0 0);
+				z-index: -1;
+			}
+
+			.price {
+				text-decoration: bold;
+			}
+
+			.mockup {
+				  -webkit-mask-image:-webkit-gradient(linear, left top, right bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.4)));
+			      mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+			      width:100%;
+			      height:600px;
+			      object-fit:cover;
+			      border-radius: 300px;
+			      border:solid rgb(50,50,50,0.5) 4px;
+			      z-index: -1;
+			}
+
+			.arriba {
+					display:grid;
+					grid-auto-flow:row;
+			}
+
+
+			@media (min-width: 45rem) {
+				.columns {
+					grid-auto-flow: column;
+				}
+
+				.products {
+					grid-auto-flow: column;
+				}
+
+				.title, .landing {
+					padding-left: 3rem;
+				}
+
+				.polygon {
+					height: 180%;
+				}
+
+				.arriba {
+					grid-auto-flow: column;
+				}
+			}
+
+
+		</style>
+	</head>
+
+	<body>
+
+		<div class="polygon"></div>
+
+		<h1 class="title">Nativa Web</h1>
+
+		<div class="arriba">
+
+			<div class="landing">
+				<h2>Desarrollo Digital <span style="font-size:2rem">&nbsp;+</span><br> Diseño de Sitios Web</h2>
+				<p>A partir del estudio de caso específico, construimos la presencia digital de tu negocio con un sitio web 100% escrito a mano y contenido creativo para tus redes sociales.</p> <p style="font-style: bold;text-shadow: 2px 2px black;">Consolida la Presencia Digital de tu negocio desde $20.000</p>
+			</div>
+
+			
+
+			<img src="dhammaMockup.png" class="mockup" alt="Dhamma Website Mockup">
+
+		</div>
+
+
+
+		<div class="columns" style="color:black;">
+			<div>
+				<h2>¿Qué hacemos?</h2>
+				<p>En Nativa Web nos especializamos en el diseño y la creación de contenido digital para Negocios y Pymes. Creamos contenido para redes sociales y automatizamos los procesos de publicación. Construimos landing pages para captar audiencias, lo cual ayuda a traer más clientes a tu sitio y más ingresos a tu negocio. </p>
+			</div>
+			<div>
+				<h2>Paga una única vez</h2>
+				<p>Un pago único para una landing page y la puesta en marcha de las redes sociales para tu negocio. Si tu necesitas más que eso tenemos precios personalizados basados en el alcance del trabajo, número de páginas adicionales y tiempo implicado.</p>
+				<p>Tu eres dueño del dominio, del contenido, de las publicaciones y los perfiles que creamos.</p>
+			</div>
+		</div>
+
+		<div class="columns">
+
+			<div>
+				<h2>¿Qué incluye el servicio?</h2>
+				<ul>
+					<li>Diseño<p>Si no tienes un diseño en mente, nosotros te proponemos 3 diseños diferentes para tu landing page.</p></li>
+					<li>Desarrollo Web<p>El servicio incluye 40 horas de diseño, desarrollo y testeo.</p></li>					
+					<li>Creación de contenido<p>Creamos contenido para tus redes sociales</p></li>
+					<li>Hosting incluido<p>El precio del servicio incluye el hosting del sitio por 1 año</p></li>
+					<li>Vínculos y Citaciones<p>Es importante tener tu sitio web vinculado a otros sitios, como directorios. Nosotros hacemos ese trabajo por vos.</p></li>
+					<li>Google Analytics<p>Instalamos Google Analytics gratis para que puedas monitorear el tráfico de tu sitio y rastrear de donde proviene.</p></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="products">
+
+			<div class="box">
+				<h2 style="background:rgb(0,57,134); width:50%; margin-top: 0rem; text-align:center;color:white;">Producto Estandar</h2>
+				<p class="price"><span style="color:#43b7ff ;font-size:0.8rem;margin-bottom: 20px">$ </span><span style="font-size:2rem; color:#43b7ff;">20.000</span></p>
+				<ul>
+					<li>Una Landing Page para tu negocio</li>
+					<li>Incluye diseño, desarrollo y hosting</li>
+					<li>Elige el diseño que prefieras</li>
+				</ul>
+			</div>
+
+			<div class="box">
+				<h2 style="background:rgb(0,57,134); width:50%; margin-top: 0rem; text-align:center;color:white">Producto Estandar + Contenido</h2>
+				<p class="price"><span style="color:#43b7ff ;font-size:0.8rem;margin-bottom: 20px">$ </span><span style="font-size:2rem; color:#43b7ff;">30.000</span></p>
+				<ul>
+					<li>Una Landing Page para tu negocio</li>
+					<li>Contenido de más de 1000 palabras escrito por un especialista SEO</li>
+					<li>Presencia Digital en redes sociales (incluye contenido)</li>
+					<li>Automatización de procesos de publicación</li>
+				</ul>
+			</div>
+	</body>
+
+</html>
