@@ -1,10 +1,6 @@
 <html>
 
 	<head>
-		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		
 		<style>
 
 			@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
@@ -68,11 +64,25 @@
 			.box {
 				padding: 0rem;
 				border: solid rgb(0,57,134) 5px;
-				box-shadow: 0px -1px 10px 4px #FFFFFF;
 				text-align: center;
 				border-radius: 5px 5px 20px 20px;
 				border-bottom: solid rgb(0,57,134) 10px;
 				background: rgb(57,57,134, 0.8);
+				transition-property: box-shadow, transform, z-index;
+				transition-duration: 2s;
+				transition-delay: 0.1s;
+				box-shadow: 0px -1px 10px 4px #000000;
+				transform: scale(1,1);
+				z-index: 0;
+			}
+
+			.box:hover {
+				transition-property: box-shadow, transform;
+				transition-duration: 2s;
+				transition-delay: 0.1s;
+				box-shadow: 0px -1px 10px 4px #FFFFFF;
+				transform: scale(1.1,1.1);
+				z-index: 1;
 			}
 
 			.polygon {
@@ -100,8 +110,9 @@
 			      object-fit:cover;
 			      border-radius: 300px;
 			      border:solid rgb(50,50,50,0.5) 4px;
-			      z-index: -1;
+
 			}
+
 
 			.arriba {
 					display:grid;
@@ -152,6 +163,7 @@
 
 			<img src="dhammaMockup.png" class="mockup" alt="Dhamma Website Mockup">
 
+
 		</div>
 
 
@@ -160,6 +172,10 @@
 			<div>
 				<h2>¿Qué hacemos?</h2>
 				<p>En Nativa Web nos especializamos en el diseño y la creación de contenido digital para Negocios y Pymes. Creamos contenido para redes sociales y automatizamos los procesos de publicación. Construimos landing pages para captar audiencias, lo cual ayuda a traer más clientes a tu sitio y más ingresos a tu negocio. </p>
+			</div>
+			<div>
+				<h2>¿Por qué hacemos esto?</h2>
+				<p>Porque al digitalizar potenciamos tus ideas. </p>
 			</div>
 			<div>
 				<h2>Paga una única vez</h2>
@@ -186,17 +202,18 @@
 		<div class="products">
 
 			<div class="box">
-				<h2 style="background:rgb(0,57,134); width:50%; margin-top: 0rem; text-align:center;color:white;">Producto Estandar</h2>
+				<h2 style="background:rgb(0,57,134); width:50%; margin-top: 0rem; text-align:center;color:white;">Sitio web .com.ar</h2>
 				<p class="price"><span style="color:#43b7ff ;font-size:0.8rem;margin-bottom: 20px">$ </span><span style="font-size:2rem; color:#43b7ff;">20.000</span></p>
 				<ul>
 					<li>Una Landing Page para tu negocio</li>
 					<li>Incluye diseño, desarrollo y hosting</li>
 					<li>Elige el diseño que prefieras</li>
+					<li>Asesoramiento Gratuito</li>
 				</ul>
 			</div>
 
 			<div class="box">
-				<h2 style="background:rgb(0,57,134); width:50%; margin-top: 0rem; text-align:center;color:white">Producto Estandar + Contenido</h2>
+				<h2 style="background:rgb(0,57,134); width:50%; margin-top: 0rem; text-align:center;color:white">Sitio web .com.ar + Contenido</h2>
 				<p class="price"><span style="color:#43b7ff ;font-size:0.8rem;margin-bottom: 20px">$ </span><span style="font-size:2rem; color:#43b7ff;">30.000</span></p>
 				<ul>
 					<li>Una Landing Page para tu negocio</li>
