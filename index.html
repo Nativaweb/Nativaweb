@@ -138,6 +138,11 @@
 				transform: scale(1,1);
 				z-index: 0;
 			}
+			
+			.input {
+				width: 50%;
+			}
+			
 
 
 			@media (min-width: 45rem) {
@@ -247,11 +252,11 @@
 			<div class="presupuesto">
 				<h2 style="text-align:center">Pida su presupuesto!</h2>
 				<form action="https://formcarry.com/s/Enoq4uhWm" method="POST" accept-charset="UTF-8">
-					<input type="text" name="nombre" placeholder="Nombre"><br>
-					<input type="email" name="email" placeholder="Correo"><!-- use this to reply visitors and prevent spam --><br>
-					<input type="text" name="telefono" placeholder="Whatsapp"><br>
-					<input type="hidden" name="_gotcha"><!-- use this to prevent spam -->
-					<input type="submit" name="enviar">
+					<input class="input" type="text" name="nombre" placeholder="Nombre"><br>
+					<input class="input" type="email" name="email" placeholder="Correo"><!-- use this to reply visitors and prevent spam --><br>
+					<input class="input" type="text" name="telefono" placeholder="Whatsapp"><br>
+					<input class="input" type="hidden" name="_gotcha"><!-- use this to prevent spam -->
+					<input class="input" type="submit" name="enviar">
 				</form>
 			</div>
 
