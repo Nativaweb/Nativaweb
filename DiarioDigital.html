@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diario Digital</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+<header>
+		<h1>Diario Digital</h1>
+		    <svg width="100" height="100">
+      <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red">
+        <animate attributeName="r" from="40" to="20" dur="2s" repeatCount="indefinite" />
+      </circle>
+    		</svg>
+		<nav>
+			<ul>
+				<section  class="mi-seccion"><a href="Diario1.html">Contenido de mi sección </a></section>
+
+				<style>
+					.mi-seccion:hover {
+ 					 transform: scale(1.1);
+							}
+
+				</style>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Nacionales</a></li>
+				<li><a href="#">Internacionales</a></li>
+				<li><a href="#">Deportes</a></li>
+				<li><a href="#">Economía</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Antropologia Digital</h2>
+			<p>La combinación de tecnologías digitales con herramientas de antropología digital puede incluir el uso de dispositivos móviles para recopilar datos etnográficos en el campo, el análisis de la presencia en línea de una comunidad, el seguimiento de la propagación de memes y la visualización de datos en tiempo real.
+Por ejemplo, un antropólogo digital puede usar técnicas de minería de datos para analizar las conversaciones en línea de una comunidad y comprender mejor su cultura y comportamiento. También puede utilizar herramientas de visualización de datos para representar gráficamente las relaciones sociales y los patrones culturales en línea.
+En resumen, la combinación de tecnologías digitales con herramientas de antropología digital permite a los antropólogos estudiar la cultura y la sociedad en línea de una manera más profunda y significativa, lo que puede llevar a una mejor comprensión de cómo la tecnología está cambiando nuestra forma de vida y de interacción social.
+			</p>
+		</section>
+		<form action="procesar-comentarios.php" method="POST">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>
+
+  <label for="correo">Correo electrónico:</label>
+  <input type="email" id="correo" name="correo" required>
+
+  <label for="comentario">Comentario:</label>
+  <textarea id="comentario" name="comentario" required></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
+	</main>
+	<footer>
+		<p><a href="https://nativaweb.com.ar/"a>Diario Digital &copy; 2023</p>
+
+
+	</footer>
+
+</body>
+</html>

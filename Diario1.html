@@ -6,10 +6,6 @@
 	<meta name="robots" content="index,follow" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Nativa Web</title>
-
-	
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
-
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3LGLJWF8L6"></script>
 	<script>
 		 window.dataLayer = window.dataLayer || [];
@@ -93,6 +89,7 @@
 		</style>
 	</head>
 		<body>
+
 		<h1>Pasos para crear un diario digital</h1>
 		<ul>Para crear un diario digital sobre temas de desarrollo web y antropología digital, sigue estos pasos:
 		Identifica tu audiencia: Antes de comenzar a crear contenido, es importante saber a quién va dirigido. ¿Quiénes son tus lectores potenciales? ¿Qué tipo de contenido están buscando? Identificar tu audiencia te ayudará a crear un diario digital que responda a sus necesidades e intereses.
@@ -104,6 +101,18 @@
 			<ul>Mantén tu diario actualizado: Para que tu diario digital sea atractivo para tus lectores, es importante que lo mantengas actualizado con contenido fresco y relevante. Publica nuevos artículos regularmente y asegúrate de que tu sitio esté actualizado y funcione correctamente.
 			Siguiendo estos pasos, podrás crear un diario digital sobre desarrollo web y antropología digital que sea interesante y relevante para tus lectores. Recuerda que la clave del éxito es crear contenido de calidad y promocionarlo adecuadamente para llegar a tu audiencia
 			</ul>
+<form action="procesar-comentarios.php" method="POST">
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required>
+
+  <label for="correo">Correo electrónico:</label>
+  <input type="email" id="correo" name="correo" required>
+
+  <label for="comentario">Comentario:</label>
+  <textarea id="comentario" name="comentario" required></textarea>
+
+  <button type="submit">Enviar</button>
+</form>
 
 
 </ul>
