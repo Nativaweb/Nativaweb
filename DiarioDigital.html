@@ -8,11 +8,20 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+		function updateDateTime() {
+			let now = new Date();
+			let date = now.toLocaleDateString();
+			let time = now.toLocaleTimeString();
+			document.getElementById('currentDateTime').innerHTML = `Fecha: ${date} Hora: ${time}`;
+		}
+	</script>
 </head>
-<body>
+<body onload="updateDateTime()">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 <header>
 		<h1>Diario Digital</h1>
+		<p id="currentDateTime"></p>
 		    <svg width="100" height="100">
       <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red">
         <animate attributeName="r" from="40" to="20" dur="2s" repeatCount="indefinite" />
@@ -46,8 +55,7 @@
 
 	<section class="col-md-6 col-lg-4">
 		<h2>Sección 2</h2>
-		<p>Accidente laboral Eduardo Merino; Hoy nos enteramos la triste noticia del accidente de Eduardo. segun los relatos de familiares, estaria el individuo junto con su asistente sosteniendo una viga, la cual se le caeria en el pie, cuando estaban arriba de una escalera intentando instalar dicha viga. Haciendo malabres con la vida. AMPLIAREMOS</p>
-		<img src="eduardo.jpg" alt="Imagen de política">
+		<p> sección 2</p>
 	</section>
 
 	<section class="col-md-6 col-lg-4">
