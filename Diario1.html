@@ -2,9 +2,11 @@
 <html>
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<meta name="description" content="Nativa Web. Desarrollo y Publicidad Web" />
 	<meta name="robots" content="index,follow" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
 	<title>Nativa Web</title>
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3LGLJWF8L6"></script>
 	<script>
@@ -28,7 +30,8 @@
 		}
 
 		body {
-			background: rgb(150,150,200);
+			background-image: url('fondo diario1.png');
+			background-size: cover;
 		}
 
 		.title {
@@ -48,9 +51,8 @@
 		}
 
 		ul {			
-			list-style-type: none;
-			padding: 0;
-			margin: 0;
+			list-style: none;
+			text-align: center;
 		}
 
 		ul p {
@@ -63,37 +65,43 @@
 		
 		
 		.columns {
-			width: min(90%, 75rem);
-			display: grid;
-			grid-auto-flow: row;
-			gap: 0.5rem;
-			font-size: 0.7rem;
-			margin: 3rem auto;
-			padding: 0.4rem;
-			background: rgba(255, 255, 255, 0.7);
-			border-radius: 30px;
-		}
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: row;
+    gap: 0.5rem;
+    font-size: 0.7rem;
+    margin: 3rem auto;
+    padding: 0.4rem;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    justify-items: center; /* center the columns horizontally */
+}
 
-		.products {
-			width: min(90%, 75rem);
-			display: grid;
-			grid-auto-flow: row;
-			gap: 1rem;
-			font-size: 0.7rem;
-			margin: 3rem auto;
-			padding: 0.4rem;
-			background: rgba(190, 232, 255, 1);
-			border-radius: 30px;
-			box-shadow: 0px -1px 10px 10px #
-				}
+.products {
+    width: min(90%, 75rem);
+    display: grid;
+    grid-auto-flow: row;
+    gap: 1rem;
+    font-size: 0.7rem;
+    margin: 3rem auto;
+    padding: 0.4rem;
+    background: rgba(190, 232, 255, 1);
+    border-radius: 30px;
+    box-shadow: 0px -1px 10px 10px #;
+    justify-items: center; /* center the sections horizontally */
+}
+
 		</style>
 	</head>
-		<body>
+		<body style="color: white;">
+
  <a style="position: fixed; bottom:0; left:0; margin:10px;" href="https://www.instagram.com/nativaweb/">
          <img style="width:3rem;height:3rem;" src="freelogo IG.png" alt="Instagram">
 
        </a>
-		<h1>“Nativa Web” Transformando la comunicación digital con una propuesta de valor humanizada”</h1>
+		<h1 class="title">“Nativa Web” Transformando la comunicación digital con una propuesta de valor humanizada”</h1>
+			<div class="container">
+		<div class="section">
 		<ul>
 			<ul>Introducción</ul>
 			<ul>La Araucaria  es un árbol ancestral  que nace en la Patagonia, representa un símbolo que  enlaza  la historia de la vida, social y cultural que tienen  diversos pueblos, y cómo tal  representa el bien común de la humanidad. </ul>
@@ -102,6 +110,8 @@
 			<ul>En  un mundo cada vez más digital, es esencial poder comunicar eficazmente el valor que nuestras marcas, empresas y emprendimientos aportan al mercado. “Nativa Web” es una propuesta de valor única y diferenciada que utiliza la antropología y la etnografía digital para mejorar la comunicación y transmitir los valores humanos en el ecosistema digital.
 			</ul>
 		</ul>
+		</div>
+		<div class="section">
 			<ul>Propuesta de valor</ul>
 			<ul>La propuesta de valor de Nativa Web se basa en tres pilares fundamentales:</ul>
 			<ul>Análisis del estado digital: Trabajamos en cooperación con marcas, empresas y emprendedores para analizar su comunicación digital en diferentes canales (redes sociales, blogs, landing pages, etc.), considerando aspectos sociales, culturales y económicos. Mediante este análisis, identificamos cómo mejorar la expresión de la propuesta de valor y transformar las ideas en mensajes claros y efectivos en el entorno digital.</ul>
@@ -109,7 +119,7 @@
 				<p><img src="Huella-digital.png" alt="Araucarias de la Patagonia" class="foto"></p>
 			<ul>Gestión y desarrollo web: Conservamos y mejoramos la presencia digital de las marcas mediante la administración de canales de redes sociales, el diseño de landing pages y el desarrollo web. Nos sentimos cómodos en este ámbito y buscamos optimizar la comunicación y el alcance del mensaje al público objetivo.
 	</ul>
-	
+	</div>
 <form action="https://formcarry.com/s/Enoq4uhWm" method="POST" accept-charset="UTF-8" class="font-weight:bold;">
   <label for="nombre">Nombre:</label>
   <input type="text" id="nombre" name="nombre" required>
